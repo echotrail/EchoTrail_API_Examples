@@ -2,7 +2,7 @@ import os
 import requests
 import sys
 
-ECHOTRAIL_API_URL = 'https://api.echotrail.io/v1/private/insights/'
+ECHOTRAIL_API_URL = 'https://api.echotrail.io/v1/insights/'
 
 if len(sys.argv) < 2:
     print('Please provide a filename or hash argument')
